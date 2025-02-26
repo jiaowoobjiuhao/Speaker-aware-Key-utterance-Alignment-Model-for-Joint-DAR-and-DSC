@@ -686,8 +686,8 @@ def evaluate(model, data_loader, device):
 if __name__ == "__main__":
     set_seed(42)
     # 数据路径
-    train_path = '/public/home/acy7tl31mi/demo2-classification/dataset/mastodon/train-copy.json'
-    dev_path = '/public/home/acy7tl31mi/demo2-classification/dataset/mastodon/test-copy.json'
+    train_path = '/public/home/acy7tl31mi/demo2-classification/dataset/mastodon/train-addspeaker.json'
+    dev_path = '/public/home/acy7tl31mi/demo2-classification/dataset/mastodon/dev-addspeaker.json'
 
     # 加载重要性标签
     with open(
