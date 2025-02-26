@@ -626,7 +626,7 @@ if __name__ == "__main__":
     with open('/public/home/acy7tl31mi/demo2-classification/classify-deberta/dailydialogue-train_importance_labels-debertav2xl.json', 'r', encoding='utf-8') as f:
         train_importance_labels = json.load(f)
 
-    with open('/public/home/acy7tl31mi/demo2-classification/classify-deberta/dailydialogue-test_importance_labels-debertav2xl.json', 'r', encoding='utf-8') as f:
+    with open('/public/home/acy7tl31mi/demo2-classification/classify-deberta/dailydialogue-dev_importance_labels-debertav2xl.json', 'r', encoding='utf-8') as f:
         dev_importance_labels = json.load(f)
 
     # Label encoding
