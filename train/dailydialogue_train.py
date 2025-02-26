@@ -611,7 +611,7 @@ if __name__ == "__main__":
     set_seed(42)
     # Data paths
     train_path = '/public/home/acy7tl31mi/demo2-classification/dataset/dailydialogue/train.json'
-    dev_path = '/public/home/acy7tl31mi/demo2-classification/dataset/dailydialogue/test.json'
+    dev_path = '/public/home/acy7tl31mi/demo2-classification/dataset/dailydialogue/dev.json'
 
     # Load tokenizer
     tokenizer = DebertaV2TokenizerFast.from_pretrained(
